@@ -58,7 +58,7 @@
         <tr>
             <th scope="col">First</th>
             <th scope="col">Last</th>
-            <th scope="col">email</th>
+            <th scope="col">Email</th>
             <th scope="col">Action</th>
         </tr>
         </thead>
