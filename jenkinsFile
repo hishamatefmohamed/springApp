@@ -10,7 +10,7 @@ pipeline {
                     echo "Now Archiving the Artifacts...."
                     echo "${env.JOB_NAME}"
                     archiveArtifacts artifacts: '**/*.war'
-                    sh 'cp /var/lib/jenkins/workspace/first_job/target/springmvc5-hibernate5-jsp-mysql-example-0.0.1-SNAPSHOT.war   /home/hisham/${env.JOB_NAME}/'
+                    sh 'cp /var/lib/jenkins/workspace/first_job/target/springmvc5-hibernate5-jsp-mysql-example-0.0.1-SNAPSHOT.war   /home/hisham/first_job/'
                 }
             }
         }
