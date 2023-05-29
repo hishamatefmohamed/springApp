@@ -8,8 +8,8 @@ pipeline {
             post {
                 success {
                     echo "Now Archiving the Artifacts...."
-                    echo ${env.JOB_NAME}
-                    archiveArtifacts artifacts: '/home/hisham/${env.JOB_NAME}/*.war'
+                    echo "${env.JOB_NAME}"
+                    archiveArtifacts artifacts: '/home/hisham/"${env.JOB_NAME}"/*.war'
                 }
             }
         }
